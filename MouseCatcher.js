@@ -72,7 +72,9 @@ function preload(){
 
 }
 function setup() {
-	  createCanvas(window.innerWidth, window.innerHeight).elt;
+	  const canvasElt = createCanvas(window.innerWidth, window.innerHeight).elt;
+	  canvasElt.style.width = '100%', canvasElt.style.height = '100%';
+
   background(0100);
 
 console.log(highscore);
