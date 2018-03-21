@@ -72,6 +72,8 @@ function preload(){
 
 }
 function setup() {
+	  createCanvas(window.innerWidth, window.innerHeight).elt;
+
 console.log(highscore);
 var config = {
   apiKey: "AIzaSyB7IfLpKq6WkRnuBZ9f0OdVhiHOGauQ1XU",
@@ -100,7 +102,6 @@ logo = loadImage("invertlogo.png");
   exit = new Exit();
   bgPic = loadImage("bg.png");
 silverTrophy - loadImage("silverTrophy.png");
-  createCanvas(window.innerWidth, window.innerHeight);
 gameLife = 3;
   playing = true;
 	speed = 3;
