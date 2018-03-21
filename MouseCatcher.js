@@ -73,6 +73,7 @@ function preload(){
 }
 function setup() {
 	  createCanvas(window.innerWidth, window.innerHeight).elt;
+  background(0100);
 
 console.log(highscore);
 var config = {
