@@ -224,11 +224,11 @@ bronzeUnlocked = loadImage("bronzeTrophy.png");
   gtA30 = loadImage("gTrophyAnimation/10030.png"), gtA40 = loadImage("gTrophyAnimation/10040.png");
 
   var points = myFont.textToPoints('MOUSETRAP', width/2-470, height/2, 150, {
-      sampleFactor: 0.25
+      sampleFactor: 0.15
     });
 
     var points1 = myFont.textToPoints('MONDAY', width/2-350, height/2+200, 150, {
-        sampleFactor: 0.25
+        sampleFactor: 0.15
       });
 
       for (var i = 0; i < points.length; i++) {
