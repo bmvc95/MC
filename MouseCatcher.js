@@ -257,7 +257,7 @@ function draw() {
   if (playing) {
 
 
-    if (loadingImage < 800) {
+    if (loadingImage < 400) {
 
       background("#000000");
        loadingImage++;
@@ -275,7 +275,7 @@ for (var i = 0; i < vehicles1.length; i++) {
   v1.show();
 }
 
-} else if (loadingImage == 800 && !exitHowto) {
+} else if (loadingImage == 400 && !exitHowto) {
     image(bgPic,0,0,width,height);
     image(howToImage,40,400,width-75,800);
 
